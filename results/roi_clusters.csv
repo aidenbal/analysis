@@ -1,0 +1,11 @@
+"outcome","tractID","start_node","end_node","n_nodes"
+"MAP","UF_L",50,55,6
+"MAP","Left Superior Longitudinal II",64,70,7
+"MAP","Right Superior Longitudinal II",0,8,9
+"PSQ","CCMid",6,32,27
+"PSQ","UF_L",51,55,5
+"PSQ","UF_L",95,99,5
+"PSQ","Right Superior Longitudinal II",76,98,23
+"TICS","CCMid",10,12,3
+"TICS","CCMid",23,35,13
+"TICS","UF_R",56,63,8

@@ -1,0 +1,38 @@
+# R session files (can contain participant data and personal paths)
+.Rhistory
+.RData
+*.RData
+*.rda
+*.rds
+.Ruserdata
+.Rproj.user/
+
+# Participant-level data: every CSV in the main folder (results/ is still shared)
+/*.csv
+node_profiles/
+*.nii
+*.nii.gz
+*.bval
+*.bvec
+*.trk
+*.trx
+
+# Recovery leftovers and old files
+recovery/
+recover_code.R
+ml_recovered.R
+pyafq.R
+*.zip
+
+# System files
+.DS_Store
+Thumbs.db
+.Rproj.user
+.httr-oauth
+.quarto
+.RDataTmp*
+.RDataTmp*
+.Rapp.history
+ROI_Analyses/
+recovered_script_*.R
+/*.png
