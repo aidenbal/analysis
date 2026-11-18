@@ -1,7 +1,6 @@
 # White Matter Tractometry, Stress, and Cardiovascular Health
 
-Diffusion MRI tractometry (PyAFQ) and Elastic Net prediction applied to the
-LEMON dataset, testing whether white matter microstructure is associated with
+Diffusion Tensor Imaging tractography using PyAFQ and Elastic Net prediction to the MPI-Leipzig Mind-Brain-Body dataset, testing if white matter microstructure is associated with
 perceived stress, chronic stress, and mean arterial pressure (MAP).
 
 ## Research question
