@@ -19,7 +19,7 @@ they can be obtained from the original data providers under their terms of use.
 |---|---|
 | PSQ (Perceived Stress Questionnaire, overall score) | Self-reported perceived stress |
 | TICS (Trier Inventory for Chronic Stress, screening scale) | Self-reported chronic stress |
-| MAP (mean arterial pressure) | Physiological, stress-related outcome (not a direct stress measure) |
+| MAP (mean arterial pressure) | Physiological, stress-related proxy) |
 
 MAP = diastolic + (systolic − diastolic) / 3, using the mean of all available readings.
 
