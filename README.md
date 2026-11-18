@@ -62,15 +62,12 @@ lists are in `results/roi_clusters.csv`.
 | TICS | Age + sex only | 45 | −0.07 | 8.9 |
 | TICS | 9 tracts + age + sex | 45 | −0.02 | 8.7 |
 
-MAP was predictable, but through age; adding white matter did not improve prediction
-beyond age and sex. For PSQ, the white matter model explained about 14% of variance
-where age and sex explained none, an exploratory result given the small sample.
-TICS could not be predicted.
 
-**Take-home.** White matter in the corpus callosum, uncinate fasciculus and SLF showed
-exploratory node-wise associations with stress-related measures. These tracts did not
+
+White matter in the CC, UF and SLF observed
+exploratory node-wise associations with stress-related outcomes. These tracts did not
 improve MAP prediction beyond age and sex, but showed modest predictive value for
-perceived stress (PSQ) that warrants replication in a larger sample.
+PSQ urging for larger sample replication. 
 
 ## Sample sizes
 
@@ -101,14 +98,6 @@ Frontal) were not analysed.
 **Prediction analyses (Analyses 3–5).** These required complete data for all nine ROI
 tracts: N = 49 for MAP and N = 45 for PSQ and TICS.
 
-## Notes and limitations
-
-- An earlier version of this analysis used four tracts (CCMid, UF_L, UF_R, right SLF II)
-  and reported R² ≈ 0.515 for MAP. That value was an in-sample fit; nested
-  cross-validation gave 0.41, and age + sex alone gave 0.43.
-- Requiring all nine tracts reduces the prediction sample to 45–49 participants, so
-  estimates are imprecise.
-- Results are exploratory and need replication in an independent sample.
 
 ## Repository structure
 
@@ -119,15 +108,7 @@ results/          Summary tables (CSV)
 figures/          Figures (PNG)
 ```
 
-## How to reproduce
 
-1. Obtain the LEMON data and run QSIPrep and PyAFQ to produce tract profiles.
-2. Place the behavioural/BP CSVs and the two PyAFQ profile CSVs in the project folder
-   (file names are listed at the top of `analysis_code.R`).
-3. Open `analysis.Rproj` in RStudio and run `source("analysis_code.R")`.
-   Required packages (dplyr, tidyr, ggplot2, glmnet) install automatically.
-
-Software versions are recorded in `results/session_info.txt`.
 
 ## Author
 
